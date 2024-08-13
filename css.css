@@ -1,0 +1,16 @@
+@property --button-bg-color{
+    syntax:'<color>';
+    inherits: false;
+    initial-value: white;
+}
+button{
+    background-color: var(--button-bg-color);
+    color: black;
+    border: 2px solid black;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover{
+    --button-bg-color:rgb(214, 173, 24);
+}
